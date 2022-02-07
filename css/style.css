@@ -42,10 +42,14 @@ nav ul {
 }
 nav a,
 header p,
-footer p {
+footer p,
+footer a {
   color: #e5e7eb;
   text-decoration: none;
   font-size: 20px;
+}
+a:hover {
+  color: #3882f6;
 }
 .header-main {
   display: flex;
