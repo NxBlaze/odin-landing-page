@@ -1,2 +1,16 @@
-# odin-landing-page
-Landing Page, second assignment from Project Odin
+# Project Odin - Landing Page
+
+Second HTML/CSS assignment from The Odin Project.
+
+## Project Goals
+
+This exercise is mostly focused on getting some flexbox practice. Responsive design is not a concern at this point (although the site scales pretty well on common desktop resolutions).
+
+I decided to try and get as close as possible to the [original design](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png), rather than doing my own thing. Figured it'll be a good practice, as the differences would be easy to catch.
+
+I still wanted to have some fun with it though, so rather than using lorem ipsums and placeholders, I created a fake product. Hence the smartbryck&trade; - best smartphone in existence, complete with glowing reviews and ridiculous features.
+
+## Credits
+
+Header picture by [Adomas Aleno](https://unsplash.com/@aleno).
+Feature icons made with [FontAwesome](https://fontawesome.com).

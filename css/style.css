@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
+:root {
+  font-size: 24px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header,
+footer,
+.quote {
+  display: flex;
+  padding: 0 10vw;
+  flex-direction: column;
+}
+header,
+footer {
+  flex: 0;
+  background-color: #1f2937;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1f2937;
+}
+.logo {
+  margin: 0;
+  font-family: "Michroma", sans-serif;
+  color: white;
+  font-size: 24px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+nav a,
+header p,
+footer p {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 20px;
+}
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 48px 0;
+}
+.header-left,
+.header-right {
+  flex: 1;
+}
+.header-right img {
+  max-width: 40vw;
+  box-shadow: 1px 1px 15px 1px #666;
+}
+header h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+button {
+  background-color: #3882f6;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  color: #f9faf8;
+  font-weight: bold;
+  font-size: 20px;
+}
+button:hover {
+  background-color: #f9faf8;
+  color: #3882f6;
+}
+#features {
+  background: white;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.card {
+  min-width: 100px;
+  max-width: 200px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card > img {
+  border-radius: 10px;
+  border: 4px solid #3882f6;
+}
+.card > p {
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+}
+#reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.quote {
+  padding: 40px 10vw;
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1f2937;
+  background-color: #e5e7eb;
+}
+.quote p {
+  margin: 10px 0 0 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  align-self: flex-end;
+}
+#cta {
+  background-color: #3882f6;
+  color: #f9faf8;
+  display: flex;
+  margin: 48px auto;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px 24px;
+  border-radius: 10px;
+  max-width: 1000px;
+  gap: 24px;
+}
+#cta button {
+  border: 1px solid #f9faf8;
+  padding: 12px 24px;
+}
+footer {
+  justify-content: center;
+  align-items: center;
+}
